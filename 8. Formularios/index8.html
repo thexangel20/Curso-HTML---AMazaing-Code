@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Lección 8: Formularios</h1>
+    <br />
+    <form>
+      <!--Sirve para meter el formulario dentro de un espacio-->
+      <fieldset>
+        <!--Va junto al input para describir que entrada esperar-->
+        <label for="username">Username</label>
+        <!--Input de tipo texto con id="username", name, placeholder,required...-->
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Escriba tu usuario"
+          required
+        />
+      </fieldset>
+
+      <fieldset>
+        <label for="password">Contraseña</label>
+        <!--pattern es para condicionar que caracteres, cuantos y que esta permitido en la entrada-->
+        <!--required es para indicar que el campo es obligatorio-->
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Ingrese su contraseña"
+          pattern="[A-Za-z0-9]{8,}"
+          required
+        />
+      </fieldset>
+
+      <input type="date" name="cumpleaños" />
+      <br />
+
+      <fieldset>
+        <label for="age">Edad:</label>
+        <input type="number" id="age" min="18" max="99" />
+      </fieldset>
+
+      <fieldset>
+        <label>
+          <input type="checkbox" name="Interests" value="Deporte" />
+          Deportes
+        </label>
+
+        <label>
+          <input type="checkbox" name="Interests" value="música" />
+          Música
+        </label>
+
+        <label>
+          <input type="checkbox" name="Interests" value="cine" />
+          Cine
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label>
+          <input type="radio" name="accept" value="si" />
+          Acepto
+        </label>
+        <label>
+          <input type="radio" name="accept" value="no" />
+          <!--El texto del tipo radio puede ir dentro del label-->
+          No Acepto
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label for="country">Selecciona un pais</label>
+        <!--for: debe ir con el id del select-->
+        <select name="country" id="country">
+          <option value="es">España</option>
+          <option value="mx">México</option>
+          <option value="ar">Argentina</option>
+        </select>
+      </fieldset>
+
+      <textarea name="" id=""></textarea>
+      <br />
+      <label for="color">Color:</label>
+      <input type="color" id="color" />
+      <br />
+      <br />
+      <button type="button">Botón</button>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
