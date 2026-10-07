@@ -1,0 +1,53 @@
+h1 {
+    color: darkred;
+}
+
+h2 {
+    color: darkred;
+}
+
+body {
+    background-color:antiquewhite;
+}
+
+.parrafo1 {
+    font-family: "Satisfy", cursive;
+    font-size: 30px;
+}
+.titulo1 {
+    font-family: "Satisfy", cursive;
+    font-size: 45px;
+}
+.titulo2 {
+    font-family: "Satisfy", cursive;
+    font-size: 40px;
+}
+.titulo3 {
+    font-family: "Satisfy", cursive;
+    font-size: 35px;
+}
+
+.enlace1 {
+    font-family: "Satisfy", cursive;
+    font-size: 25px;
+}
+
+.enlace2 {
+    font-family: "Satisfy", cursive;
+    font-size: 25px;
+}
+
+.enlace3 {
+    font-family: "Satisfy", cursive;
+    font-size: 25px;
+}
+
+.parrafo2 {
+    font-family: "Satisfy", cursive;
+    font-size: 25px;
+}
+
+.parrafo3 {
+    font-family: "Satisfy", cursive;
+    font-size: 25px;
+}
